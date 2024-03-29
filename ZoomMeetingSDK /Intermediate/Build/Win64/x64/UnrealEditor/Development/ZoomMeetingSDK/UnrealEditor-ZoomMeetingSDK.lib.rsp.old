@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ZoomMeetingSDK.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"X:\Zoom Unreal Experiments\Zoom Example Projects\Zoom_Sample_Project_v1.0.4\Intermediate\Build\Win64\x64\Zoom_Sample_ProjectEditor\Development\Engine\SharedPCH.Engine.Cpp17.h.obj"
+"X:\Zoom Unreal Experiments\Zoom Example Projects\Zoom_Sample_Project_v1.0.4\Plugins\ZoomMeetingSDK\Intermediate\Build\Win64\x64\UnrealEditor\Development\ZoomMeetingSDK\Module.ZoomMeetingSDK.1.cpp.obj"
+"X:\Zoom Unreal Experiments\Zoom Example Projects\Zoom_Sample_Project_v1.0.4\Plugins\ZoomMeetingSDK\Intermediate\Build\Win64\x64\UnrealEditor\Development\ZoomMeetingSDK\Module.ZoomMeetingSDK.2.cpp.obj"
+"X:\Zoom Unreal Experiments\Zoom Example Projects\Zoom_Sample_Project_v1.0.4\Plugins\ZoomMeetingSDK\Intermediate\Build\Win64\x64\UnrealEditor\Development\ZoomMeetingSDK\Module.ZoomMeetingSDK.3.cpp.obj"
+"X:\Zoom Unreal Experiments\Zoom Example Projects\Zoom_Sample_Project_v1.0.4\Plugins\ZoomMeetingSDK\Intermediate\Build\Win64\x64\UnrealEditor\Development\ZoomMeetingSDK\Default.rc2.res"
+/OUT:"X:\Zoom Unreal Experiments\Zoom Example Projects\Zoom_Sample_Project_v1.0.4\Plugins\ZoomMeetingSDK\Intermediate\Build\Win64\x64\UnrealEditor\Development\ZoomMeetingSDK\UnrealEditor-ZoomMeetingSDK.lib"
