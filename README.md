@@ -13,11 +13,11 @@ This version is limited by Github's size constraints and includes only the wrapp
 
 
 ## Documentation
-Please visit [Zoom Meeting SDK](https://developers.zoom.us/docs/meeting-sdk/) to learn how to use the SDK and run the sample application.
+Please visit [Zoom Meeting SDK](https://developers.zoom.us/docs/meeting-sdk/unreal/) to learn how to use the SDK and run the sample application.
 
 ## Changelog
 
-For the changelog, see [Meeting SDK - Unreal Engine](https://developers.zoom.us/changelog/meeting-sdk/).
+For the changelog, see [Meeting SDK - Unreal Engine](https://developers.zoom.us/changelog/meeting-sdk/unreal/).
 
 ## Support
 
