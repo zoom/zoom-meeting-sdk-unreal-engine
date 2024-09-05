@@ -227,7 +227,7 @@ void ZoomSDKRenderer::onRawDataFrameReceived(YUVRawDataI420 *data) {
 
   // Textures should be created in the game thread or a different thread.
   // Convert the data to texture asynchronously.
-  AsyncTask(ENamedThreads::GameThread, [=]() {
+  AsyncTask(ENamedThreads::GameThread, [=, this]() {
     if (!output_rendertarget.IsValid()) {
       UE_LOG(ZoomMeetingSDKLog, Error,
              TEXT("ZoomSDKRenderer::onRawDataFrameReceived: Not rendering "

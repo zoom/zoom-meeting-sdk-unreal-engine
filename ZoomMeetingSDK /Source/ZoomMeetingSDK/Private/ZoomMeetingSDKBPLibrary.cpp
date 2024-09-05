@@ -130,14 +130,14 @@ ZOOMSDK::IMeetingVideoController *GetMeetingVideoController() {
   auto *meeting_service = SDKInterfaceWrap::GetInst().GetMeetingService();
   if (!meeting_service) {
     UE_LOG(BPZoomMeetingSDKLog, Error,
-           TEXT("GetMeetingVideoController: not in a meeting"), );
+           TEXT("GetMeetingVideoController: not in a meeting"));
     return nullptr;
   }
   auto *meeting_video_controller = meeting_service->GetMeetingVideoController();
   if (!meeting_video_controller) {
     UE_LOG(BPZoomMeetingSDKLog, Error,
            TEXT("GetMeetingVideoController: meeting video controller not "
-                "initialized"), );
+                "initialized"));
     return nullptr;
   }
   return meeting_video_controller;
@@ -150,7 +150,7 @@ ZOOMSDK::IMeetingParticipantsController *GetMeetingParticipantController() {
   auto *meeting_service = SDKInterfaceWrap::GetInst().GetMeetingService();
   if (!meeting_service) {
     UE_LOG(BPZoomMeetingSDKLog, Error,
-           TEXT("GetMeetingParticipantController: not in a meeting"), );
+           TEXT("GetMeetingParticipantController: not in a meeting"));
     return nullptr;
   }
   auto *meeting_participant_controller =
@@ -159,7 +159,7 @@ ZOOMSDK::IMeetingParticipantsController *GetMeetingParticipantController() {
     UE_LOG(BPZoomMeetingSDKLog, Error,
            TEXT("GetMeetingParticipantController: meeting participant "
                 "controller not "
-                "initialized"), );
+                "initialized"));
     return nullptr;
   }
 
@@ -173,7 +173,7 @@ ZOOMSDK::IMeetingChatController *GetMeetingChatController() {
   auto *meeting_service = SDKInterfaceWrap::GetInst().GetMeetingService();
   if (!meeting_service) {
     UE_LOG(BPZoomMeetingSDKLog, Error,
-           TEXT("GetMeetingChatController: not in a meeting"), );
+           TEXT("GetMeetingChatController: not in a meeting"));
     return nullptr;
   }
   auto *meeting_chat_controller = meeting_service->GetMeetingChatController();
@@ -181,7 +181,7 @@ ZOOMSDK::IMeetingChatController *GetMeetingChatController() {
     UE_LOG(BPZoomMeetingSDKLog, Error,
            TEXT("meeting_chat_controller: meeting chat "
                 "controller not "
-                "initialized"), );
+                "initialized"));
     return nullptr;
   }
   return meeting_chat_controller;
@@ -194,7 +194,7 @@ ZOOMSDK::IMeetingLiveStreamController *GetMeetingLiveStreamController() {
   auto *meeting_service = SDKInterfaceWrap::GetInst().GetMeetingService();
   if (!meeting_service) {
     UE_LOG(BPZoomMeetingSDKLog, Error,
-           TEXT("GetMeetingLiveStreamController: not in a meeting"), );
+           TEXT("GetMeetingLiveStreamController: not in a meeting"));
     return nullptr;
   }
   auto *meeting_live_stream_controller =
@@ -203,7 +203,7 @@ ZOOMSDK::IMeetingLiveStreamController *GetMeetingLiveStreamController() {
     UE_LOG(BPZoomMeetingSDKLog, Error,
            TEXT("meeting_live_stream_controller: meeting live stream "
                 "controller not "
-                "initialized"), );
+                "initialized"));
     return nullptr;
   }
   return meeting_live_stream_controller;
@@ -225,7 +225,7 @@ ZOOMSDK::IMeetingQAController *GetMeetingQAController() {
   auto *meeting_service = SDKInterfaceWrap::GetInst().GetMeetingService();
   if (!meeting_service) {
     UE_LOG(BPZoomMeetingSDKLog, Error,
-           TEXT("GetMeetingQAController: not in a meeting"), );
+           TEXT("GetMeetingQAController: not in a meeting"));
     return nullptr;
   }
   auto *meeting_qa_controller = meeting_service->GetMeetingQAController();
@@ -233,7 +233,7 @@ ZOOMSDK::IMeetingQAController *GetMeetingQAController() {
     UE_LOG(BPZoomMeetingSDKLog, Error,
            TEXT("meeting_qa_controller: meeting qa "
                 "controller not "
-                "initialized"), );
+                "initialized"));
     return nullptr;
   }
   return meeting_qa_controller;
